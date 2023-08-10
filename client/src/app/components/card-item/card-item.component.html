@@ -1,0 +1,8 @@
+<div class="card" [routerLink]="['/compound', compound.id]">
+  <img src={{compound.compoundImage}}>
+  <h2>{{ compound.compoundName }}</h2>
+  <div class="card-footer">
+    <fa-icon [icon]="faTrashCan" class="icon" (click)="onDelete(compound); $event.stopPropagation()"></fa-icon>
+    <fa-icon [icon]="faPenToSquare" class="icon-edit" [routerLink]="['/compound/edit',compound.id]"></fa-icon>
+  </div>
+</div>
