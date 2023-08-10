@@ -29,6 +29,8 @@
 .compound-details h2 {
   margin-top: 30px;
   text-align: center;
+  margin-right: 10px;
+  overflow: overlay;
 }
 
 .compound-details p {
