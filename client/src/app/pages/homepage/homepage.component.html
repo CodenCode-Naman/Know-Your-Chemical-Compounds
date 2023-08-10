@@ -4,7 +4,7 @@
   </app-card-item>
 </section>
 <div class="pages">
-  <button *ngIf="page!==1" [routerLink]="['/compounds']" [queryParams]="{pg: page-1}"></button>
+  <button *ngIf="page!==1" [routerLink]="['/compounds']" [queryParams]="{pg: page-1}"><</button>
       {{ page }} / {{ totalPages }}
       <button *ngIf="page!==totalPages" [routerLink]="['/compounds']" [queryParams]="{pg: page+1}">></button>
 </div>
