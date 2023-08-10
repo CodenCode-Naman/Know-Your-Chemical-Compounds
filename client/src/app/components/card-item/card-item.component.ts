@@ -8,7 +8,8 @@ import { Compound } from 'src/app/types/compound';
   styleUrls: ['./card-item.component.css']
 })
 export class CardItemComponent {
-  @Input() compound: Compound;
+  @Input()
+  compound!: Compound;
   @Output() onDeleteCompound: EventEmitter<Compound> = new EventEmitter();
   @Output() onEditCompound: EventEmitter<Compound> = new EventEmitter();
 
