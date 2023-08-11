@@ -15,9 +15,9 @@ You possess information about 30 chemical compounds, including their names, imag
 1.4. Attractive UI: The web app's user interface is designed with CSS to create an engaging and visually appealing experience.
 
 #### 2. Back End
-1.1 CRUD API: ExpressJS is used to create API endpoints that provide CRUD operations for accessing and editing compound information.
+2.1 CRUD API: ExpressJS is used to create API endpoints that provide CRUD operations for accessing and editing compound information.
 
-1.2 Database Management: Sequelize ORM is employed to interact with a MySQL database. The data, provided in CSV format, is imported into the database for efficient storage and retrieval.
+2.2 Database Management: Sequelize ORM is employed to interact with a MySQL database. The data, provided in CSV format, is imported into the database for efficient storage and retrieval.
 
 ### Technologies Used
 1. Angular: A front-end framework used to build the user interface and interactions.
@@ -36,6 +36,15 @@ You possess information about 30 chemical compounds, including their names, imag
    
 Open a web browser and navigate to http://localhost:4200 to access the web app.
 Import postman_collection.json in your postman to check the backend and db.
+
+4. To run the server-side test cases:
+   ``` cd server```
+
+   To run test files:
+   ``` npm test ```
+
+   To get the coverage report
+   ``` npm run coverage ```
 
 ### Usage
  ~ Browse through the list of chemical compounds on the home page.
@@ -62,6 +71,10 @@ Import postman_collection.json in your postman to check the backend and db.
 
 #### Docker Container view
 ![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/780d0c3c-399a-4699-83fc-0ca27830e379)
+
+#### Unit Tests Coverage
+![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/8bd5b707-7640-45e7-a39e-76cb3ac4c2b7)
+
 
 
 
