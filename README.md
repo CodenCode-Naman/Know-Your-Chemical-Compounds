@@ -46,6 +46,15 @@ Import postman_collection.json in your postman to check the backend and db.
    To get the coverage report
    ``` npm run coverage ```
 
+5. To run the client-side test cases:
+   ``` cd client```
+
+   To run test files:
+   ``` ng test ```
+
+   To get the coverage report
+   ``` ng test --code-coverage ```
+
 ### Usage
  ~ Browse through the list of chemical compounds on the home page.
 
@@ -73,8 +82,10 @@ Import postman_collection.json in your postman to check the backend and db.
 ![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/780d0c3c-399a-4699-83fc-0ca27830e379)
 
 #### Unit Tests Coverage
+
+##### Server-side
 ![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/8bd5b707-7640-45e7-a39e-76cb3ac4c2b7)
 
-
-
-
+##### Client-side
+![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/39a7dbd7-dec9-45cb-993b-8451b9e912c9)
+![image](https://github.com/CodenCode-Naman/Know-Your-Chemical-Compounds/assets/69742938/fc93d239-d40a-4979-b12b-699da3d086fe)
